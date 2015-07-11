@@ -7,6 +7,15 @@ $c3: #eda926; //        accent orange
 $c4: #3c6b92; //        main blue
 $c5: #ff0033; //        hot pink
 
+/* Colors, for export */
+.c_blk { color: $c_blk; }
+.c_grayMed { color: $c_grayMed; }
+.c1 { color:$c1; }
+.c2 { color:$c2; }
+.c3 { color:$c3; }
+.c4 { color:$c4; }
+.c5 { color:$c5; }
+
 
 /* Early browser support */
 header, section, article, aside, nav, footer {
@@ -76,10 +85,10 @@ header {
   text-shadow:1px 1px 1px #666;
   padding:0 0 0 45px;
 }
-figcaption {font-size:0.7em;font-weight: bold;color:#f0f;}
+figcaption {font-size:0.7em;font-weight: bold;color:$c3;}
 
 #siteWrapper {
-  width:990px;
+  width:100%;
   border: 1px solid #000;
 }
 #mainHeader { 
@@ -92,8 +101,10 @@ figcaption {font-size:0.7em;font-weight: bold;color:#f0f;}
 section {font-size:0.90em;margin-bottom:15px;} /* 27px/30px = em */
 article {font-size:0.90em;margin-bottom:15px;} /* 27px/30px = em */
 
-.contentCol1 {width:48%; margin: 0 1% 0 1%; float:left;}
-.contentCol2 {width:48%; margin: 0 1% 0 1%; float:right;}
+.contentFull {width:98%; margin: 0 1% 0 1%; float:left;} // 2 margins
+.contentCol1 {width:48%; margin: 0 1% 0 1%; float:left;}   // 2 margins = 50%
+.contentCol2 {width:48%; margin: 0 1% 0 1%; float:right;}  // 2 margins = 50%
+
 
 
 blockquote span::before { 
@@ -154,5 +165,20 @@ table.altTable tr:nth-child(odd)  {
   #mainHeader { width: 990px; background:$c3; }
 }
 */
+
+.sliderBox {
+  color: $c_blk; 
+  font-size:24px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: $c2;
+  background: linear-gradient(to bottom, #F00 0%,#333 100%);
+  display:inline-block;
+  height:100px;
+  width: 100%;
+  min-width:320px;
+}
+
 
 

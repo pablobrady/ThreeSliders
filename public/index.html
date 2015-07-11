@@ -5,12 +5,16 @@
 <title>Three Slider Site</title>
 <meta name="copyright" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 
 <!-- Older browser Support -->
 <!--[if lt IE 9]>
-  <script src="distjs/html5shim.js"></script>
+  <script src="js/html5shim.js"></script>
 <![endif]-->
 
 <link href='http://fonts.googleapis.com/css?family=Federo' rel='stylesheet' type='text/css'>
@@ -26,10 +30,20 @@
     </hgroup>
   </header>
   <section id="contentSection">
+    <section class="contentFull">
+      <div class="sliderBox">
+        
+      </div>
+      <hr>
+    </section>
     <section class="contentCol1">
       <section id="welcomeSection">
         <section>
-            <h2>(Intro paragraph)</h2>
+          <div class="sliderBox2">[-Slider 2-]</div>
+        </section>
+        <section>
+            <h2>Intro paragraph</h2>
+            <div class="clickMe1">[CLICK_ME_1]</div>
             Lucas ipsum dolor sit amet twi'lek opress owen derlin unu quarren ponda abregado huk shmi. Senex dodonna owen k-3po massans. Gricho bel tharin boz antilles droid qu roan ziro. Tund troig mccool tibor yané biggs arcona darth kast. Nute bail luuke hobbie ithorian sy. Fett artaru rieekan zam ulic hissa ahsoka bibble bail. Kota dak rancisis durron quelli vebb. Taun stass dantooine tahiri biggs givin naboo glymphid. Snootles xanatos organa depa luuke tierce felucia vau saurin. Auril cerean max antilles rune.
         </section>
       </section><!-- welcomeSection -->
@@ -44,7 +58,7 @@
     </section><!-- contentCol1 -->
     <section class="contentCol2">
       <aside id="hoursAside">
-        <h2>Optional Aside</h2>
+        <h2>Column 2 Aside</h2>
         Lucas ipsum dolor sit amet twi'lek opress owen derlin unu quarren ponda abregado huk shmi. Senex dodonna owen k-3po massans. Gricho bel tharin boz antilles droid qu roan ziro. Tund troig mccool tibor yané biggs arcona darth kast. Nute bail luuke hobbie ithorian sy.
       </aside><!-- hoursAside -->
       <hr>
@@ -88,7 +102,5 @@
     <hr class="clear"/>
   </footer>
 </section><!-- siteWrapper -->
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </body>
 </html>
