@@ -166,6 +166,8 @@ table.altTable tr:nth-child(odd)  {
 }
 */
 
+/* PLAYGROUND CSS */
+
 .sliderBox {
   color: $c_blk; 
   font-size:24px;
@@ -181,4 +183,32 @@ table.altTable tr:nth-child(odd)  {
 }
 
 
+
+IMG.userProfileImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
+
+.userProfile {
+  display: inline-block;
+  position: relative;
+  z-index: -10;
+  top:-30px;
+  border: none;
+  height: 100px;
+  margin:  0;
+  padding: 0;
+  width: 100%;
+  background-color: $c1;
+  .textContent {
+    font-size:18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 30px;
+  }
+}
 
